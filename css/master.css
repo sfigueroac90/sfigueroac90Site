@@ -1,0 +1,43 @@
+
+/*** VARIABLES ***/
+
+:root {
+  --color1:#eb6383;
+  --color2:#fa9191;
+  --color3:#ffe9c5;
+  --color4:#b4f2e1;
+  --color5:#23789D;
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=NTR&display=swap');
+
+
+/*** DEFAULTS ***/
+* {
+ font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--color3);
+}
+
+ul,p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: var(--color5);
+}
+
+
+h1 {
+  font-family: 'NTR', sans-serif;
+  color: var(--color5);
+}
+
+h2 {
+  font-family: 'NTR', sans-serif;
+  color: var(--color5);
+}
